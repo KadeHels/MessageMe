@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MessageMe", "MessageMe\MessageMe.csproj", "{5F075684-6DD0-4BE9-81C1-6BD75DF1C65D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MessageMe.Tests", "MessageMe.Tests\MessageMe.Tests.csproj", "{9700AC24-B06C-49BF-818F-7F869A2A7E9D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{5F075684-6DD0-4BE9-81C1-6BD75DF1C65D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5F075684-6DD0-4BE9-81C1-6BD75DF1C65D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5F075684-6DD0-4BE9-81C1-6BD75DF1C65D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5F075684-6DD0-4BE9-81C1-6BD75DF1C65D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9700AC24-B06C-49BF-818F-7F869A2A7E9D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9700AC24-B06C-49BF-818F-7F869A2A7E9D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9700AC24-B06C-49BF-818F-7F869A2A7E9D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9700AC24-B06C-49BF-818F-7F869A2A7E9D}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
