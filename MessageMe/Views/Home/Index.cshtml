@@ -1,22 +1,25 @@
 ﻿@{
     ViewBag.Title = "MessageMe";
 }
+<div ng-controller="homeController">
 
-<div class="row">
-    <table class="table table-responsive">
-        <thead>
-            <tr>
-                <th>
-                    Player: <input ng-model="name" />
-                </th>
-            </tr>
-        </thead>
-        <tbody>
-            <tr> 
-                <td>
-                    Searching: {{name}}
-                </td>
-            </tr>
-        </tbody>
-    </table>
+
+    <div class="row">
+        <table class="table table-responsive">
+            <thead>
+                <tr>
+                    <th>
+                        Player: <input />
+                    </th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr ng-repeat="name in names">
+                    <td>
+                        {{name}}
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
 </div>
